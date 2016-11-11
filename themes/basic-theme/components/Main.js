@@ -6,7 +6,7 @@ class Main extends React.Component {
     return (
       <div
         style={{
-          height: '800px',
+          height: '1000px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center'

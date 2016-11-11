@@ -1,11 +1,7 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import Main from './Main'
-
+import Template from './themes/basic-theme/template'
 class Html extends React.Component {
   render () {
-    //console.log(normalize);
     return (
       <html lang="eng">
         <head>
@@ -13,9 +9,7 @@ class Html extends React.Component {
           <link rel="stylesheet" href="./css/normalize.css"/>
         </head>
         <body>
-          <Header/>
-          <Main/>
-          <Footer/>
+          <Template/>
         </body>
       </html>
     )
