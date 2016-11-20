@@ -1,0 +1,2 @@
+<html lang="eng"><head><meta charset="utf-8"/><link rel="stylesheet" href="./css/normalize.css"/></head><body><div><div style="position:absolute;top:0px;left:0px;height:150px;width:100%;background-color:gray;margin:0px;text-align:center;"><h1>Header</h1></div><div style="height:1000px;display:flex;align-items:center;justify-content:center;"><h1>About</h1>
+</div><div style="height:100px;background-color:gray;display:flex;align-items:center;justify-content:center;"><p>Footer</p></div></div></body></html>

@@ -5,6 +5,7 @@ class Main extends React.Component {
   render () {
     return (
       <div
+        dangerouslySetInnerHTML={{__html: this.props.content}}
         style={{
           height: '1000px',
           display: 'flex',
@@ -12,7 +13,6 @@ class Main extends React.Component {
           justifyContent: 'center'
         }}
       >
-        <p>Main</p>
       </div>
     )
   }

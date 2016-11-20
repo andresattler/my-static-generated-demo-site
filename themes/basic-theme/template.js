@@ -8,7 +8,7 @@ class Template extends React.Component {
     return (
       <div>
         <Header/>
-        <Main/>
+        <Main content={this.props.content}/>
         <Footer/>
       </div>
     );

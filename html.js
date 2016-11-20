@@ -9,7 +9,7 @@ class Html extends React.Component {
           <link rel="stylesheet" href="./css/normalize.css"/>
         </head>
         <body>
-          <Template/>
+          <Template content={this.props.content}/>
         </body>
       </html>
     )
