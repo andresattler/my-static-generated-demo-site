@@ -1,18 +1,19 @@
 import React from 'react';
-
+import Aside from './Aside'
 
 class Main extends React.Component {
   render () {
     return (
-      <div
-        dangerouslySetInnerHTML={{__html: this.props.content}}
-        style={{
-          height: '1000px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}
-      >
+      <div id="wrapper">
+        <main>
+          <article>
+            <h1>secound Post</h1>
+          </article>
+          <article>
+            <h1>first Post</h1>
+          </article>
+        </main>
+        <Aside/>
       </div>
     )
   }

@@ -6,7 +6,8 @@ class Html extends React.Component {
       <html lang="eng">
         <head>
           <meta charSet="utf-8" />
-          <link rel="stylesheet" href="./css/normalize.css"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <link rel="stylesheet" href="./css/style.css"/>
         </head>
         <body>
           <Template content={this.props.content}/>
