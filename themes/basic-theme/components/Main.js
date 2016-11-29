@@ -11,6 +11,7 @@ class Main extends React.Component {
           >
           <a href={val.link}>
             <h1>{val.title}</h1>
+            <p dangerouslySetInnerHTML={{__html: val.description}}></p>
           </a>
         </article>
       ));
