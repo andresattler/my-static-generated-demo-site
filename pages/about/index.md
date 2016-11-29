@@ -1,3 +1,8 @@
+---
+type: about
+---
+
+
 Markdown Ipsum Presents
 =======================
 

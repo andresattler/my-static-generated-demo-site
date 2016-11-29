@@ -3,15 +3,23 @@ import Aside from './Aside'
 
 class Main extends React.Component {
   render () {
+    let content;
+    if(this.props.content.articles){
+      content = this.props.content.articles.map(val => (
+        <article
+          key={val.title}
+          >
+          <h1>{val.title}</h1>
+        </article>
+      ));
+    }else{
+      content=<article dangerouslySetInnerHTML={{__html: this.props.content.content}}></article>;
+    }
+
     return (
       <div id="wrapper">
         <main>
-          <article>
-            <h1>secound Post</h1>
-          </article>
-          <article>
-            <h1>first Post</h1>
-          </article>
+          {content}
         </main>
         <Aside/>
       </div>
