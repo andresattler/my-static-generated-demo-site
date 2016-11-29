@@ -9,7 +9,9 @@ class Main extends React.Component {
         <article
           key={val.title}
           >
-          <h1>{val.title}</h1>
+          <a href={val.link}>
+            <h1>{val.title}</h1>
+          </a>
         </article>
       ));
     }else{
