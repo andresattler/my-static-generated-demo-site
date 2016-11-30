@@ -4,17 +4,9 @@ import React from 'react';
 class Footer extends React.Component {
   render () {
     return (
-      <div
-        style={{
-          height: '100px',
-          backgroundColor: 'gray',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center'
-        }}
-      >
-        <p>Footer</p>
-      </div>
+      <footer>
+        <p>coded with passion by <a href="https://github.com/andresattler/">André Sattler</a></p>
+      </footer>
     )
   }
 }

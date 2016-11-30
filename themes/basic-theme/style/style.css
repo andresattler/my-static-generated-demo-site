@@ -70,8 +70,20 @@ main article h1 {
 aside {
   width: 90vw;
   height: 500px;
+}
+aside div {
+  padding: 15px;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
+  margin-bottom: 10px;
+}
+aside div img {
+  border-radius: 50%;
+}
+aside #social a {
+  margin: 5px;
+  text-decoration: underline;
 }
 @media (min-width: 1200px) {
   aside {
@@ -82,4 +94,11 @@ aside {
 footer {
   height: 100px;
   background-color: #545353;
+  text-align: center;
+}
+footer p {
+  padding-top: 50px;
+}
+footer a {
+  color: white;
 }
