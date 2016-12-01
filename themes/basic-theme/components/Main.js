@@ -10,6 +10,7 @@ class Main extends React.Component {
           key={val.title}
           >
           <a href={val.link}>
+            <p>{val.date}</p>
             <h1>{val.title}</h1>
             <p dangerouslySetInnerHTML={{__html: val.description}}></p>
           </a>
