@@ -5,7 +5,12 @@ class Main extends React.Component {
   render () {
     let content;
     if(this.props.content.articles){
-      content = this.props.content.articles.map(val => (
+      const articles = this.props.content.articles.sort( (a,b) => {
+        let date1 = new Date(Date.parse(a.date));
+        let date2 = new Date(Date.parse(b.date));
+        console.log(date2 - date1); 
+        return date2 - date1});
+      content = articles.map(val => (
         <article
           key={val.title}
           >
